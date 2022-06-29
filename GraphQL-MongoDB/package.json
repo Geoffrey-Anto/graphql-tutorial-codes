@@ -1,0 +1,21 @@
+{
+  "name": "GraphQLMongoDB",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "apollo-server": "^3.9.0",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
